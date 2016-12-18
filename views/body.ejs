@@ -1,0 +1,13 @@
+
+
+<div class="header">
+    <a class = "a" href = "/"> Home </a>
+    <% content.pages.forEach(page=>{%>
+        <a class = "a" href = "/page/<%=page.url%>"><%=page.title%></a>
+    <%})%>
+</div>
+
+<a href="https://www.indiegogo.com" id = "indiegogotext"> <div id = indigogolink> CLICK to FUND </div> </a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+

@@ -1,0 +1,81 @@
+body {
+    background-image: url("/images/Yell-Extreme-Park-Logo-Transparent.png");
+}
+img {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+#header {
+    top: 0px;
+    background-color: #FCB721;
+    height: 110px;
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: #45132F;
+    opacity: 1;
+    vertical-align: middle;
+    line-height: 110px;
+}
+
+.header a {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    padding: 15px;
+    width: 100px;
+    height: 55px;
+    text-align: center;
+    font-size: 25px;
+    color: #45132F;
+    opacity: 0.8;
+    vertical-align: middle;
+    text-decoration: none;
+    line-height: 55px;
+
+}
+.a:hover {
+    text-decoration: underline !important;
+}
+iframe {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    /*border-width: 7px; */
+}
+#description {
+    position: absolute;
+    /*background: rgba(246, 238, 238, 0.4);*/
+    top: 205px;
+    left: 720px;
+    width: 650px;
+    height: 300px;
+    font-size: 30px;
+    color: #45132F;
+    text-align: left;
+}
+
+#indigogolink {
+    background-color: #C0392B;
+    position: relative;
+    top: 350px;
+    left: 845px;
+    width: 370px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    /*opacity: 0.8;*/
+    vertical-align: middle;
+    line-height: 100px;
+}
+#indiegogotext {
+    text-decoration: none;
+}
+#indigogolink:hover {
+    bachgrounf-color: #F6391F;
+}
+
